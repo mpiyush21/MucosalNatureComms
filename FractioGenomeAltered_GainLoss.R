@@ -1,9 +1,7 @@
 setwd("/Users/pmundra/Documents/Mucosal_segments/")
 
-files1 <- list.files(pattern = "MELA*")
-files2 <- list.files(pattern = "Sample*")
-files3 <- list.files(pattern = "PT*")
-files <- c(files1,files3,files2)
+files <- list.files(pattern = "FILENAME*")
+
 
 
 
